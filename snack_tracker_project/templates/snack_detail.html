@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %} Snacks | {{snack.name}} {% endblock %}
+
+
+{% block content %}
+
+<p>
+    Name : {{snack.name}}
+    <br>
+    Purshaser: {{snack.purshaser}}
+    <br>
+    Description: {{snack.description}}
+</p>
+
+
+{% endblock content %}
